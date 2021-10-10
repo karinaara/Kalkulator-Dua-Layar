@@ -1,0 +1,71 @@
+/* class kalkulator dengan lebar 400px di tengah website */
+.calculator {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 200px;
+    width:400px;
+}
+
+/* class untuk menampilkan layar input dan operasi pada kalkulator */
+.calculator-screen {
+    width: 100%;
+    height: 50px;
+    background-color: #252525;
+    color: #fff;
+    text-align: left;
+    font-size: 25px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* class untuk menampilkan layar output pada kalkulator */
+.calculator-screen2 {
+    width: 100%;
+    height: 50px;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    font-size: 25px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* class tombol pada kalkulator untuk memodifikasi tampilannya */
+.calculator-keys{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+}
+
+/* mengubah warna tombol menjadi abu-abu dengan border hitam dan angka putih */
+button{
+    height: 80px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 32px;
+    color: #fff;
+    width: 25%;
+    outline: none;
+}
+
+.all-clear, .zero-btn{
+    width: 50%;
+}
+
+/* mengubah tombol operator kalkulator menjadi oranye */
+.operator, .equal-sign{
+    background-color: orange;
+}
+
+/* mengubah warna background saat kursor diarahkan ke tombol */
+button:hover{
+    background-color: darkgray;
+}
+
+.operator:hover, .equal-sign:hover{
+    background-color: darkorange;
+}
